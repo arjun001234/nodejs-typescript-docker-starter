@@ -1,0 +1,8 @@
+services:
+  server:
+    build: .
+    ports:
+      - 4000:8080
+    volumes:
+      - .:/home/node/app
+    
